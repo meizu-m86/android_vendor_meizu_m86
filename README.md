@@ -1,4 +1,4 @@
 Meizu PRO5
 
-This branch is for building CyanogenMod/LineageOS 14.1 ROMS
+This branch is for building LineageOS 15.1 ROMS
 
