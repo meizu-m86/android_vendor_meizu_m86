@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/libsitril-ims.so:system/lib/libsitril-ims.so \
     vendor/meizu/m86/proprietary/lib/libsitril-wlan.so:system/lib/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib/libsitril.so:system/lib/libsitril.so \
-    vendor/meizu/m86/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/meizu/m86/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -197,7 +196,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libsitril-ims.so:system/lib64/libsitril-ims.so \
     vendor/meizu/m86/proprietary/lib64/libsitril-wlan.so:system/lib64/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib64/libsitril.so:system/lib64/libsitril.so \
-    vendor/meizu/m86/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/meizu/m86/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
     vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
