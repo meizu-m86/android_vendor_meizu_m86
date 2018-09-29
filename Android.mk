@@ -16,28 +16,3 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),m86)
-
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsurfaceflinger
-LOCAL_MODULE_OWNER := meizu
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_SRC_FILES_32 := proprietary/lib/libsurfaceflinger.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsurfaceflinger
-LOCAL_MODULE_OWNER := meizu
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 64
-LOCAL_SRC_FILES_64 := proprietary/lib64/libsurfaceflinger.so
-include $(BUILD_PREBUILT)
-
-endif
-
