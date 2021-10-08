@@ -16,3 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(TARGET_DEVICE),m86)
+
+endif
+
