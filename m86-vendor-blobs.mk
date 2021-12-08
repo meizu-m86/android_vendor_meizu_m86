@@ -21,20 +21,23 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
     vendor/meizu/m86/proprietary/app/mcRegistry/07061000000000000000000000000000.tlbin:system/app/mcRegistry/07061000000000000000000000000000.tlbin \
     vendor/meizu/m86/proprietary/bin/86_OTP.sh:system/bin/86_OTP.sh \
-    vendor/meizu/m86/proprietary/bin/cbd:system/bin/cbd \
     vendor/meizu/m86/proprietary/bin/check_OTP.sh:system/bin/check_OTP.sh \
-    vendor/meizu/m86/proprietary/bin/climax_tfa9890:system/bin/climax_tfa9890 \
+    vendor/meizu/m86/proprietary/bin/modem_switch.sh:system/bin/modem_switch.sh \
+
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m86/proprietary/bin/cbd:system/bin/cbd \
     vendor/meizu/m86/proprietary/bin/dis_effect:system/bin/dis_effect \
     vendor/meizu/m86/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/meizu/m86/proprietary/bin/gpslogd:system/bin/gpslogd \
     vendor/meizu/m86/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/meizu/m86/proprietary/bin/march_hotplug:system/bin/march_hotplug \
     vendor/meizu/m86/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/meizu/m86/proprietary/bin/modem_switch.sh:system/bin/modem_switch.sh \
     vendor/meizu/m86/proprietary/bin/radiooptions_exynos:system/bin/radiooptions_exynos \
     vendor/meizu/m86/proprietary/bin/record_panic_msg:system/bin/record_panic_msg \
     vendor/meizu/m86/proprietary/bin/rild_exynos:system/bin/rild_exynos \
     vendor/meizu/m86/proprietary/bin/wl:system/bin/wl \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg_w_hdrs.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg_w_hdrs.bin \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_training_bkg.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_training_bkg.bin \
@@ -52,6 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/etc/tfa98xx/speech_eq_0.eq:system/etc/tfa98xx/speech_eq_0.eq \
     vendor/meizu/m86/proprietary/etc/tfa98xx/speech_preset_0.preset:system/etc/tfa98xx/speech_preset_0.preset \
     vendor/meizu/m86/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/extend/libCodec.adpcmdec.so:system/lib/extend/libCodec.adpcmdec.so \
     vendor/meizu/m86/proprietary/lib/extend/libCodec.adt.so:system/lib/extend/libCodec.adt.so \
     vendor/meizu/m86/proprietary/lib/extend/libCodec.alacdec.so:system/lib/extend/libCodec.alacdec.so \
@@ -86,31 +91,19 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/hw/dis_effect.m86.so:system/lib/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/meizu/m86/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
-    vendor/meizu/m86/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
     vendor/meizu/m86/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/meizu/m86/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/meizu/m86/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/meizu/m86/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/meizu/m86/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
-    vendor/meizu/m86/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/meizu/m86/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/meizu/m86/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
     vendor/meizu/m86/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/meizu/m86/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/meizu/m86/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/meizu/m86/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/meizu/m86/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-    vendor/meizu/m86/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
-    vendor/meizu/m86/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
     vendor/meizu/m86/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     vendor/meizu/m86/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     vendor/meizu/m86/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/meizu/m86/proprietary/lib/libimageproc.so:system/lib/libimageproc.so \
-    vendor/meizu/m86/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/meizu/m86/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     vendor/meizu/m86/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
-    vendor/meizu/m86/proprietary/lib/libmpp.so:system/lib/libmpp.so \
     vendor/meizu/m86/proprietary/lib/libril_sitril.so:system/lib/libril_sitril.so \
     vendor/meizu/m86/proprietary/lib/librilutils_sitril.so:system/lib/librilutils_sitril.so \
     vendor/meizu/m86/proprietary/lib/libsfb.so:system/lib/libsfb.so \
@@ -121,10 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/libsitril-jniif.so:system/lib/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib/libsitril-wlan.so:system/lib/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib/libsitril.so:system/lib/libsitril.so \
-    vendor/meizu/m86/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/meizu/m86/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
-    vendor/meizu/m86/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
-    vendor/meizu/m86/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so \
     vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -163,31 +152,19 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/meizu/m86/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
-    vendor/meizu/m86/proprietary/lib64/hw/memtrack.exynos5.so:system/lib64/hw/memtrack.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/sensors.m86.so:system/lib64/hw/sensors.m86.so \
-    vendor/meizu/m86/proprietary/lib64/libExynosHWCService.so:system/lib64/libExynosHWCService.so \
     vendor/meizu/m86/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
     vendor/meizu/m86/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
     vendor/meizu/m86/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/meizu/m86/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
-    vendor/meizu/m86/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
     vendor/meizu/m86/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
     vendor/meizu/m86/proprietary/lib64/libdisplaymodule.so:system/lib64/libdisplaymodule.so \
-    vendor/meizu/m86/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
-    vendor/meizu/m86/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
-    vendor/meizu/m86/proprietary/lib64/libexynosutils.so:system/lib64/libexynosutils.so \
-    vendor/meizu/m86/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
     vendor/meizu/m86/proprietary/lib64/libgps_shim.so:system/lib64/libgps_shim.so \
-    vendor/meizu/m86/proprietary/lib64/libhdmi.so:system/lib64/libhdmi.so \
-    vendor/meizu/m86/proprietary/lib64/libhdmimodule.so:system/lib64/libhdmimodule.so \
     vendor/meizu/m86/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
     vendor/meizu/m86/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
     vendor/meizu/m86/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
     vendor/meizu/m86/proprietary/lib64/libimageproc.so:system/lib64/libimageproc.so \
-    vendor/meizu/m86/proprietary/lib64/libion.so:system/lib64/libion.so \
-    vendor/meizu/m86/proprietary/lib64/libion_exynos.so:system/lib64/libion_exynos.so \
     vendor/meizu/m86/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
-    vendor/meizu/m86/proprietary/lib64/libmpp.so:system/lib64/libmpp.so \
     vendor/meizu/m86/proprietary/lib64/libril_sitril.so:system/lib64/libril_sitril.so \
     vendor/meizu/m86/proprietary/lib64/librilutils_sitril.so:system/lib64/librilutils_sitril.so \
     vendor/meizu/m86/proprietary/lib64/libsitril-audio.so:system/lib64/libsitril-audio.so \
@@ -197,10 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libsitril-jniif.so:system/lib64/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib64/libsitril-wlan.so:system/lib64/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib64/libsitril.so:system/lib64/libsitril.so \
-    vendor/meizu/m86/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
-    vendor/meizu/m86/proprietary/lib64/libtfa9890.so:system/lib64/libtfa9890.so \
-    vendor/meizu/m86/proprietary/lib64/libvirtualdisplay.so:system/lib64/libvirtualdisplay.so \
-    vendor/meizu/m86/proprietary/lib64/libvirtualdisplaymodule.so:system/lib64/libvirtualdisplaymodule.so \
     vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -214,6 +187,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/etc/dirac_types.xml:system/vendor/etc/dirac_types.xml \
     vendor/meizu/m86/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/meizu/m86/proprietary/vendor/firmware/Project.hex:system/vendor/firmware/Project.hex \
@@ -234,10 +209,32 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/firmware/setfile_imx230.bin:system/vendor/firmware/setfile_imx230.bin \
     vendor/meizu/m86/proprietary/vendor/firmware/setfile_ov5670.bin:system/vendor/firmware/setfile_ov5670.bin \
     vendor/meizu/m86/proprietary/vendor/firmware/st_fts.bin:system/vendor/firmware/st_fts.bin \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/meizu/m86/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/meizu/m86/proprietary/vendor/lib/libexynosuvs.so:system/vendor/lib/libexynosuvs.so \
     vendor/meizu/m86/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/meizu/m86/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
-    vendor/meizu/m86/proprietary/vendor/lib64/libskia_opt.so:system/vendor/lib64/libskia_opt.so \
     vendor/meizu/m86/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+
+# 改由源码编译
+PRODUCT_PACKAGES += \
+    libion \
+    libexynosutils \
+    libexynosv4l2 \
+    libion_exynos \
+    libexynosscaler \
+    libexynosgscaler \
+    libmpp \
+    libcsc \
+    libstagefrighthw \
+    memtrack.exynos5 \
+    libtfa9890 \
+    climax_tfa9890 \
+    libExynosHWCService \
+    libhdmimodule \
+    libhdmi \
+    libvirtualdisplay \
+    libvirtualdisplaymodule \
+
