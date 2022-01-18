@@ -108,13 +108,58 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/extend/libExtractor.REALMEDIA.so:system/lib/extend/libExtractor.REALMEDIA.so \
     vendor/meizu/m86/proprietary/lib/extend/libExtractor.WAV.so:system/lib/extend/libExtractor.WAV.so \
     vendor/meizu/m86/proprietary/lib/extend/libExtractor.matroska.so:system/lib/extend/libExtractor.matroska.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/meizu/m86/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/meizu/m86/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m86/proprietary/lib64/extend/libCodec.adpcmdec.so:system/lib64/extend/libCodec.adpcmdec.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libCodec.adt.so:system/lib64/extend/libCodec.adt.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libCodec.lpcm.so:system/lib64/extend/libCodec.lpcm.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libCodec.mp3enc.so:system/lib64/extend/libCodec.mp3enc.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libCodec.raw.so:system/lib64/extend/libCodec.raw.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AC3.so:system/lib64/extend/libExtractor.AC3.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AIFF.so:system/lib64/extend/libExtractor.AIFF.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.APE.so:system/lib64/extend/libExtractor.APE.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.ASF.so:system/lib64/extend/libExtractor.ASF.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AVI.so:system/lib64/extend/libExtractor.AVI.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.FLAC.so:system/lib64/extend/libExtractor.FLAC.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.FLV.so:system/lib64/extend/libExtractor.FLV.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MP3.so:system/lib64/extend/libExtractor.MP3.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG.so:system/lib64/extend/libExtractor.MPEG.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG2TS.so:system/lib64/extend/libExtractor.MPEG2TS.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG4.so:system/lib64/extend/libExtractor.MPEG4.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.REALMEDIA.so:system/lib64/extend/libExtractor.REALMEDIA.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.WAV.so:system/lib64/extend/libExtractor.WAV.so \
+    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.matroska.so:system/lib64/extend/libExtractor.matroska.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:system/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:system/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
+    vendor/meizu/m86/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
+    vendor/meizu/m86/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/hw/audio.primary.m86.so:system/lib/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/camera.m86.so:system/lib/hw/camera.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/dis_effect.m86.so:system/lib/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/meizu/m86/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/meizu/m86/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
     vendor/meizu/m86/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/meizu/m86/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
     vendor/meizu/m86/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
@@ -136,47 +181,22 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/libsitril-jniif.so:system/lib/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib/libsitril-wlan.so:system/lib/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib/libsitril.so:system/lib/libsitril.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/meizu/m86/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/meizu/m86/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/meizu/m86/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/meizu/m86/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
     vendor/meizu/m86/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libCodec.adpcmdec.so:system/lib64/extend/libCodec.adpcmdec.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libCodec.adt.so:system/lib64/extend/libCodec.adt.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libCodec.lpcm.so:system/lib64/extend/libCodec.lpcm.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libCodec.mp3enc.so:system/lib64/extend/libCodec.mp3enc.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libCodec.raw.so:system/lib64/extend/libCodec.raw.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AC3.so:system/lib64/extend/libExtractor.AC3.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AIFF.so:system/lib64/extend/libExtractor.AIFF.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.APE.so:system/lib64/extend/libExtractor.APE.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.ASF.so:system/lib64/extend/libExtractor.ASF.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.AVI.so:system/lib64/extend/libExtractor.AVI.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.FLAC.so:system/lib64/extend/libExtractor.FLAC.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.FLV.so:system/lib64/extend/libExtractor.FLV.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MP3.so:system/lib64/extend/libExtractor.MP3.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG.so:system/lib64/extend/libExtractor.MPEG.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG2TS.so:system/lib64/extend/libExtractor.MPEG2TS.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.MPEG4.so:system/lib64/extend/libExtractor.MPEG4.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.REALMEDIA.so:system/lib64/extend/libExtractor.REALMEDIA.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.WAV.so:system/lib64/extend/libExtractor.WAV.so \
-    vendor/meizu/m86/proprietary/lib64/extend/libExtractor.matroska.so:system/lib64/extend/libExtractor.matroska.so \
+    vendor/meizu/m86/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+    vendor/meizu/m86/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/meizu/m86/proprietary/vendor/lib/libexynosuvs.so:system/vendor/lib/libexynosuvs.so \
+    vendor/meizu/m86/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+
+PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/hw/audio.primary.m86.so:system/lib64/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/dis_effect.m86.so:system/lib64/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/meizu/m86/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/sensors.m86.so:system/lib64/hw/sensors.m86.so \
-    vendor/meizu/m86/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
-    vendor/meizu/m86/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
     vendor/meizu/m86/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/meizu/m86/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/meizu/m86/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
@@ -196,25 +216,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libsitril-jniif.so:system/lib64/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib64/libsitril-wlan.so:system/lib64/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib64/libsitril.so:system/lib64/libsitril.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP8.Decoder.so:system/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP8.Encoder.so:system/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/meizu/m86/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-
-PRODUCT_COPY_FILES += \
-    vendor/meizu/m86/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-    vendor/meizu/m86/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/meizu/m86/proprietary/vendor/lib/libexynosuvs.so:system/vendor/lib/libexynosuvs.so \
-    vendor/meizu/m86/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/meizu/m86/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/meizu/m86/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
