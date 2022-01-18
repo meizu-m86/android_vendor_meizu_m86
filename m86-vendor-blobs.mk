@@ -25,19 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/bin/modem_switch.sh:system/bin/modem_switch.sh \
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m86/proprietary/bin/cbd:system/bin/cbd \
-    vendor/meizu/m86/proprietary/bin/dis_effect:system/bin/dis_effect \
-    vendor/meizu/m86/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/meizu/m86/proprietary/bin/gpslogd:system/bin/gpslogd \
-    vendor/meizu/m86/proprietary/bin/immvibed:system/bin/immvibed \
-    vendor/meizu/m86/proprietary/bin/march_hotplug:system/bin/march_hotplug \
-    vendor/meizu/m86/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/meizu/m86/proprietary/bin/radiooptions_exynos:system/bin/radiooptions_exynos \
-    vendor/meizu/m86/proprietary/bin/record_panic_msg:system/bin/record_panic_msg \
-    vendor/meizu/m86/proprietary/bin/rild_exynos:system/bin/rild_exynos \
-    vendor/meizu/m86/proprietary/bin/wl:system/bin/wl \
-
-PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg_w_hdrs.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg_w_hdrs.bin \
     vendor/meizu/m86/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_training_bkg.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_training_bkg.bin \
@@ -55,6 +42,41 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/etc/tfa98xx/speech_eq_0.eq:system/etc/tfa98xx/speech_eq_0.eq \
     vendor/meizu/m86/proprietary/etc/tfa98xx/speech_preset_0.preset:system/etc/tfa98xx/speech_preset_0.preset \
     vendor/meizu/m86/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m86/proprietary/vendor/etc/dirac_types.xml:system/vendor/etc/dirac_types.xml \
+    vendor/meizu/m86/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
+    vendor/meizu/m86/proprietary/vendor/firmware/Project.hex:system/vendor/firmware/Project.hex \
+    vendor/meizu/m86/proprietary/vendor/firmware/bcm43455.hcd:system/vendor/firmware/bcm43455.hcd \
+    vendor/meizu/m86/proprietary/vendor/firmware/bcm4349.hcd:system/vendor/firmware/bcm4349.hcd \
+    vendor/meizu/m86/proprietary/vendor/firmware/bcm943455_pciehdr_follow_M8.bin:system/vendor/firmware/bcm943455_pciehdr_follow_M8.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/fimc_is_fw2.bin:system/vendor/firmware/fimc_is_fw2.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/meizu/m86/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/mfg_fw.bin:system/vendor/firmware/mfg_fw.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/modem.bin:system/vendor/firmware/modem.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/setfile_imx230.bin:system/vendor/firmware/setfile_imx230.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/setfile_ov5670.bin:system/vendor/firmware/setfile_ov5670.bin \
+    vendor/meizu/m86/proprietary/vendor/firmware/st_fts.bin:system/vendor/firmware/st_fts.bin \
+
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m86/proprietary/bin/cbd:system/bin/cbd \
+    vendor/meizu/m86/proprietary/bin/dis_effect:system/bin/dis_effect \
+    vendor/meizu/m86/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/meizu/m86/proprietary/bin/gpslogd:system/bin/gpslogd \
+    vendor/meizu/m86/proprietary/bin/immvibed:system/bin/immvibed \
+    vendor/meizu/m86/proprietary/bin/march_hotplug:system/bin/march_hotplug \
+    vendor/meizu/m86/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    vendor/meizu/m86/proprietary/bin/radiooptions_exynos:system/bin/radiooptions_exynos \
+    vendor/meizu/m86/proprietary/bin/record_panic_msg:system/bin/record_panic_msg \
+    vendor/meizu/m86/proprietary/bin/rild_exynos:system/bin/rild_exynos \
+    vendor/meizu/m86/proprietary/bin/wl:system/bin/wl \
 
 PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/extend/libCodec.adpcmdec.so:system/lib/extend/libCodec.adpcmdec.so \
@@ -187,28 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
     vendor/meizu/m86/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-
-PRODUCT_COPY_FILES += \
-    vendor/meizu/m86/proprietary/vendor/etc/dirac_types.xml:system/vendor/etc/dirac_types.xml \
-    vendor/meizu/m86/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
-    vendor/meizu/m86/proprietary/vendor/firmware/Project.hex:system/vendor/firmware/Project.hex \
-    vendor/meizu/m86/proprietary/vendor/firmware/bcm43455.hcd:system/vendor/firmware/bcm43455.hcd \
-    vendor/meizu/m86/proprietary/vendor/firmware/bcm4349.hcd:system/vendor/firmware/bcm4349.hcd \
-    vendor/meizu/m86/proprietary/vendor/firmware/bcm943455_pciehdr_follow_M8.bin:system/vendor/firmware/bcm943455_pciehdr_follow_M8.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/fimc_is_fw2.bin:system/vendor/firmware/fimc_is_fw2.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-    vendor/meizu/m86/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/mfg_fw.bin:system/vendor/firmware/mfg_fw.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/modem.bin:system/vendor/firmware/modem.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/setfile_imx230.bin:system/vendor/firmware/setfile_imx230.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/setfile_ov5670.bin:system/vendor/firmware/setfile_ov5670.bin \
-    vendor/meizu/m86/proprietary/vendor/firmware/st_fts.bin:system/vendor/firmware/st_fts.bin \
 
 PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
