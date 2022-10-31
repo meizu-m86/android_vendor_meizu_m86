@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/hw/audio.primary.m86.so:system/lib/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/camera.m86.so:system/lib/hw/camera.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/dis_effect.m86.so:system/lib/hw/dis_effect.m86.so \
-    vendor/meizu/m86/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
     vendor/meizu/m86/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/meizu/m86/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
@@ -194,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/hw/audio.primary.m86.so:system/lib64/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/dis_effect.m86.so:system/lib64/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/meizu/m86/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/hwcomposer.exynos5.so:system/lib64/hw/hwcomposer.exynos5.so \
     vendor/meizu/m86/proprietary/lib64/hw/sensors.m86.so:system/lib64/hw/sensors.m86.so \
     vendor/meizu/m86/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
@@ -241,4 +239,5 @@ PRODUCT_PACKAGES += \
     libhdmi \
     libvirtualdisplay \
     libvirtualdisplaymodule \
+    gralloc.exynos5 \
 
