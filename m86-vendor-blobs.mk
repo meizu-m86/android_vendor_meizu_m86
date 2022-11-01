@@ -165,8 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/meizu/m86/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
     vendor/meizu/m86/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/meizu/m86/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
-    vendor/meizu/m86/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     vendor/meizu/m86/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/meizu/m86/proprietary/lib/libimageproc.so:system/lib/libimageproc.so \
     vendor/meizu/m86/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
@@ -200,8 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libdisplay.so:system/lib64/libdisplay.so \
     vendor/meizu/m86/proprietary/lib64/libdisplaymodule.so:system/lib64/libdisplaymodule.so \
     vendor/meizu/m86/proprietary/lib64/libgps_shim.so:system/lib64/libgps_shim.so \
-    vendor/meizu/m86/proprietary/lib64/libhwcutils.so:system/lib64/libhwcutils.so \
-    vendor/meizu/m86/proprietary/lib64/libhwcutilsmodule.so:system/lib64/libhwcutilsmodule.so \
     vendor/meizu/m86/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
     vendor/meizu/m86/proprietary/lib64/libimageproc.so:system/lib64/libimageproc.so \
     vendor/meizu/m86/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
@@ -240,4 +236,6 @@ PRODUCT_PACKAGES += \
     libvirtualdisplay \
     libvirtualdisplaymodule \
     gralloc.exynos5 \
+    libhwcutils \
+    libhwcutilsmodule \
 
