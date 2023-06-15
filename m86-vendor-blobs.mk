@@ -241,3 +241,28 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/meizu/m86/proprietary/vendor/lib64/libskia_opt.so:system/vendor/lib64/libskia_opt.so \
     vendor/meizu/m86/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+
+
+# camera.m86.so
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m86/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
+    vendor/meizu/m86/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
+    vendor/meizu/m86/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
+    vendor/meizu/m86/proprietary/lib/libharfbuzz_ng.so:system/lib/libharfbuzz_ng.so \
+    vendor/meizu/m86/proprietary/lib/libpdfium.so:system/lib/libpdfium.so \
+    vendor/meizu/m86/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
+    vendor/meizu/m86/proprietary/lib/libradio.so:system/lib/libradio.so \
+    vendor/meizu/m86/proprietary/lib/libminikin.so:system/lib/libminikin.so \
+    vendor/meizu/m86/proprietary/lib/libprocessgroup.so:system/lib/libprocessgroup.so \
+    vendor/meizu/m86/proprietary/lib/libnativebridge.so:system/lib/libnativebridge.so \
+    vendor/meizu/m86/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+    vendor/meizu/m86/proprietary/lib/libhwui.so:system/lib/libhwui.so \
+    vendor/meizu/m86/proprietary/lib/libRS.so:system/lib/libRS.so \
+    vendor/meizu/m86/proprietary/lib/libRS_internal.so:system/lib/libRS_internal.so \
+    vendor/meizu/m86/proprietary/lib/libbcinfo.so:system/lib/libbcinfo.so \
+    vendor/meizu/m86/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
+
+
+
+
+
