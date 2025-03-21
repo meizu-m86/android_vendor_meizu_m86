@@ -177,10 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib/libsitril-jniif.so:system/lib/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib/libsitril-wlan.so:system/lib/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib/libsitril.so:system/lib/libsitril.so \
-    vendor/meizu/m86/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    vendor/meizu/m86/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    vendor/meizu/m86/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    vendor/meizu/m86/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
     vendor/meizu/m86/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/meizu/m86/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/meizu/m86/proprietary/vendor/lib/libexynosuvs.so:system/vendor/lib/libexynosuvs.so \
@@ -208,9 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libsitril-jniif.so:system/lib64/libsitril-jniif.so \
     vendor/meizu/m86/proprietary/lib64/libsitril-wlan.so:system/lib64/libsitril-wlan.so \
     vendor/meizu/m86/proprietary/lib64/libsitril.so:system/lib64/libsitril.so \
-    vendor/meizu/m86/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    vendor/meizu/m86/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    vendor/meizu/m86/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
     vendor/meizu/m86/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/meizu/m86/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
