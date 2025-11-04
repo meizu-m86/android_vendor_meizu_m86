@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m86/proprietary/lib/hw/audio.primary.m86.so:system/lib/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/camera.m86.so:system/lib/hw/camera.m86.so \
     vendor/meizu/m86/proprietary/lib/hw/dis_effect.m86.so:system/lib/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
@@ -183,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m86/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m86/proprietary/lib64/hw/audio.primary.m86.so:system/lib64/hw/audio.primary.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/dis_effect.m86.so:system/lib64/hw/dis_effect.m86.so \
     vendor/meizu/m86/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/meizu/m86/proprietary/lib64/hw/sensors.m86.so:system/lib64/hw/sensors.m86.so \
@@ -230,4 +228,5 @@ PRODUCT_PACKAGES += \
     libhwcutils \
     libhwcutilsmodule \
     hwcomposer.exynos5 \
+    audio.primary.m86 \
 
